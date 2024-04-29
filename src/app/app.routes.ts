@@ -19,7 +19,8 @@ export const routes: Routes = [
             {path: 'admin', component: AdminPortalComponent},
             {path: 'productList',component:ProductListComponent},
             {path: 'cart',component:CartComponent},
-            {path: 'search',component:SearchItemsComponent}
+            {path: 'search',component:SearchItemsComponent},
+            {path: 'adminPortal',component:AdminPortalComponent}
         ]
     },
     {path: '**', component:PagenotfoundComponent}
